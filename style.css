@@ -1,0 +1,54 @@
+body {
+  transition: background-color 0.4s;
+  font-family: 
+  text-align: center;
+}
+
+h1 {
+  font-size: 9rem;
+  margin: 5rem 0 0 0;
+  transition: all 0.4s;
+  position: relative;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 7.2rem;
+  font-family: monospace;
+  font-size: 1.3rem;
+  border: .5px solid black;
+  border-radius: 2px;
+  padding: 2px;
+
+
+}
+
+.colors span {
+  color: rgba(0, 0, 0, 0.4);
+  flex: 1;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.colors span.dark {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@keyframes jump {
+  from {
+    transform: scale(2.5) rotate(-3deg);
+    box-shadow: var(--box-shadow);
+  }
+  to {
+    transform: scale(1) rotate(0);
+  }
+}
+
+.colors span.got {
+  text-decoration: line-through;
+  animation: jump 0.2s ease-in-out 2 alternate-reverse;
+}
