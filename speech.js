@@ -1,5 +1,5 @@
-import { handleResult } from './handlers.js';
-import { colorsByLength, isDark } from './colors.js';
+import { handleResult } from './handlers';
+import { colorsByLength, isDark } from './colors';
 
 const colorsElement = document.querySelector('.colors');
 

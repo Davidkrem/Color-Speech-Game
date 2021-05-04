@@ -1,4 +1,4 @@
-import { isValidColor } from './colors.js';
+import { isValidColor } from './colors';
 
 function logWords(results) {
         console.log(results[results.length - 1][0].transcript);
