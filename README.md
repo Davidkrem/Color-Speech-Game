@@ -2,7 +2,7 @@
 
 ### **Introduction**
 
-This web game will listen to you as you call(shout) out available colors, crossing them out while changing the screen to your requested color. Ideal for anyone interested in learning new color names... as well as annoying your neighbor!
+This web game will listen to you as you call(shout) out colors - crossing them out while updating changing the screen to your requested color. Ideal for anyone interested in learning new color names... as well as annoying your neighbor!
 
 - [](#)
 
